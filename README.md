@@ -14,7 +14,7 @@ This project serves as a straightforward example of how to create a web applicat
 
 ## Prerequisites
 
-- [Deno](https://deno.land/) (version 1.46.3 or later)
+- [Deno](https://deno.land/) (version 2.1.9 or later)
 - [Docker](https://www.docker.com/) (for containerization)
 - A [DigitalOcean](https://www.digitalocean.com/) account (for deployment)
 
@@ -29,7 +29,7 @@ cd hello-deno
 ```
 deno run --allow-net src/app.ts
 ```
-3. Visit `http://localhost:8080` in your browser to see the application running.
+3. Visit `http://localhost:8000` in your browser to see the application running.
 
 ## Deployment
 
